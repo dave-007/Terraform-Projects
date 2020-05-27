@@ -19,7 +19,7 @@ steps:
 - task: TerraformTaskV1@0
   inputs:
     provider: 'azurerm'
-    command: 'apply'
+    command: 'destroy'
     workingDirectory: '12-CI-CD-Pipelines/Azure-Devops/AKS'
     commandOptions: '-var="Name=$(Name)" -var="resourceGroup=$(resourceGroup)" -var="clientID=$(clientID)" -var="clientSecret=$(clientSecret)" -var="location=$(location)"'
     backendServiceArm: 'MSDN-100-Dollar(db5853eb-f806-4b8e-abdb-effbbf00652a)'
