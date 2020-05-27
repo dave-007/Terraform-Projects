@@ -26,4 +26,5 @@ steps:
     backendAzureRmResourceGroupName: 'tftest-rg'
     backendAzureRmStorageAccountName: 'tstate4384'
     backendAzureRmContainerName: 'tstate'
-    backendAzureRmKey: 'tf/terraform.tfstate'    
+    backendAzureRmKey: 'tf/terraform.tfstate'
+    environmentServiceNameAzureRM: 'MSDN-100-Dollar(db5853eb-f806-4b8e-abdb-effbbf00652a)'    
